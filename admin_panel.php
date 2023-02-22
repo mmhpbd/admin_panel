@@ -1,5 +1,9 @@
 <?php
     session_start();
+    if(!isset($_SESSION['AdminLoginId']))
+    {
+        header("location: admin_login.php");
+    }
 ?>
 <html lang="en">
 
@@ -125,7 +129,7 @@
     if(isset($_POST['logout']))
     {
         session_destroy();
-        navber("localtion: admin_login.php");
+        header("localtion: admin_login.php");
     }
 ?>
 
