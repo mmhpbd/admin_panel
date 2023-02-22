@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="col-lg-3">
-                        <div class="card">
+                        <div class="card1">
                             <a href="#">
                                 <i class="fa-solid fa-gauge"></i>
                                 <h3>DESHBOARD</h3>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="col-lg-3">
-                        <div class="card">
+                        <div class="card1">
                             <a href="#">
                                 <i class="fa-solid fa-handshake"></i>
                                 <h3>GET QOUTS</h3>
